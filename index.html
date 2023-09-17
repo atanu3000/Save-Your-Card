@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Open Source Project</title>
+        <link rel="icon" href="public/github.png" type="image/x-icon" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            * {
+                color: #fff;
+                font-family: ui-monospace, SFMono-Regular, Menlo, Monaco,
+                    Consolas, "Liberation Mono", "Courier New", monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="min-h-screen mx-auto bg-black">
+            <div class="relative flex-col justify-between p-6 py-8 md:mx-16">
+                <div class="flex justify-between item-center">
+                    <div class="flex flex-col text-center md:text-left">
+                        <div class="w-40 md:w-60 2xl:w-72 text-white">
+                            <a
+                                href="https://hacktoberfest.com/"
+                                target="_blank"
+                            >
+                                <img
+                                    src="public/hacktoberfest.svg"
+                                    alt="hacktoberfest"
+                                    class="w-full"
+                                />
+                            </a>
+                        </div>
+                        <h3
+                            class="text-white mt-2 md:mt-4 tracking-tighter font-bold text-sm md:text-2xl"
+                        >
+                            Open Source Contribution
+                        </h3>
+                    </div>
+                    <div
+                        class="w-10 h-10 md:w-14 md:h-14 rounded-[50%] bg-white"
+                    >
+                        <a href="#"><img src="public/github.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="">
+                    <h1
+                        class="text-4xl text-center md:text-left sm:text-6xl md:text-8xl mt-16 font-semibold leading-10 uppercase"
+                    >
+                        Make your first
+                        <span class="text-yellow-300/75">Open Source</span>
+                        contribution
+                    </h1>
+                </div>
+            </div>
+            <div class="flex flex-col px-6 py-4 md:py-8 md:mx-16 relative">
+                <div
+                    class="flex flex-wrap gap-6 justify-between item-center my-20"
+                >
+                    <h1 class="text-2xl md:text-4xl uppercase mx-auto sm:mx-0">
+                        add your cards here:
+                    </h1>
+                    <button 
+                        data-modal-target="authentication-modal" 
+                        data-modal-toggle="authentication-modal"
+                        class="bg-white hover:bg-yellow-300/75 hover:text-white text-black/50 py-2 px-4 rounded text-xl font-bold mx-auto sm:mx-0"
+                    >
+                        Add +
+                    </button>
+
+                    <!-- Main modal -->
+                    <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                        <div class="relative w-full max-w-md max-h-full">
+                            <!-- Modal content -->
+                            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-black rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="authentication-modal">
+                                    <svg class="w-3 h-3 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                                    </svg>
+                                    <!-- <span class="sr-only">Close modal</span> -->
+                                </button>
+                                <div class="px-6 py-6 lg:px-8">
+                                    <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white uppercase">Add your cards here</h3>
+                                    <form class="space-y-6" action="#">
+                                        <div>
+                                            <input class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" aria-describedby="user_avatar_help" id="user_avatar" type="file">
+                                            <div class="mt-1 text-sm text-gray-500 dark:text-gray-300 ps-3" id="user_avatar_help">Upload a profile picture</div>
+                                        </div>
+                                        <div>
+                                            <input type="text" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="John Doe" required>
+                                        </div>
+                                        <div>
+                                            <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required>
+                                        </div>
+                                        <div>
+                                            <textarea name="description" id="description" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white resize-none" placeholder="Write about yourself" required></textarea>
+                                        </div>
+                                        
+                                        <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Save Your Card</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div
+                    id="cards"
+                    class="flex flex-wrap justify-between item-center"
+                >
+                    <!-- cards will be apeared here by script.js -->
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
