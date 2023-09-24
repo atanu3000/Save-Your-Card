@@ -20,14 +20,14 @@
         "image": "https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
     },{
-        "name": "Bill Gates",
-        "email": "bill.gates@gmail.com",
-        "image": "https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
-    },{
         "name": "Mark Zuckerberg",
         "email": "mark.zuckerberg@gmail.com",
         "image": "https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
+    },{
+        "name": "Atanu Paul",
+        "email": "atanupaul2411@gmail.com",
+        "image": "./asset/atanu.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
     }
 ]
