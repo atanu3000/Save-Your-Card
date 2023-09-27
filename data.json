@@ -29,5 +29,10 @@
         "email": "atanupaul2411@gmail.com",
         "image": "./asset/atanu.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
+    },{
+        "name": "Antika Paul",
+        "email": "antikapaul3@gmail.com",
+        "image": "./asset/antika.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
     }
 ]
