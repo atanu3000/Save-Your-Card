@@ -10,7 +10,7 @@ const fetchData = () => {
                 card.className = 'mx-auto w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-6';
 
                 card.innerHTML = `
-                    <div class="flex flex-col items-center py-6">
+                    <div class="flex flex-col items-center py-6 hover:bg-gradient-to-r from-indigo-500/50 via-purple-500/50 to-pink-500/50 cursor-pointer">
                         <img
                             class="w-24 h-24 mb-3 rounded-full shadow-lg"
                             src="${item.image}"
@@ -66,7 +66,7 @@ const searchUsers = async () => {
                 searchCard.className = 'mx-auto w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-6';
 
                 searchCard.innerHTML = `
-                    <div class="flex flex-col items-center py-6">
+                    <div class="flex flex-col items-center py-6 hover:bg-gradient-to-r from-indigo-500/50 via-purple-500/50 to-pink-500/50 cursor-pointer">
                         <img
                             class="w-24 h-24 mb-3 rounded-full shadow-lg"
                             src="${item.image}"
