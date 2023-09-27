@@ -1,12 +1,17 @@
-# What is Hacktoberfest?
 
- Hacktoberfest is an annual month-long event that encourages open-source contributions and celebrates the open-source community. It typically takes place every October and is sponsored by DigitalOcean in partnership with GitHub. The main goal of Hacktoberfest is to promote collaboration and contribution to open-source projects by motivating developers to make meaningful contributions to GitHub-hosted repositories.
+# Welcome to Hacktoberfest2023
 
-# 🚀 Steps To Be Followed
+Make your first Pull Request and earn a free t-shirts & stickers from GitHub!
+
+# Welcome to GitHub!
+
+## This project is perfect for your first pull request
+
+## 🚀 Steps To Be Followed
 
 1. **Sign Up**: First, visit the official Hacktoberfest website (https://hacktoberfest.digitalocean.com/) and sign up for the event. You'll need a GitHub account to participate.
 
-## After registering to hacktoberfest 2023 you can fork this repository by following some steps :
+### After registering to hacktoberfest 2023 you can fork this repository by following some steps :
 
 4. **Fork this Repository**: Click the "Fork" button on this project's GitHub page. This creates a copy of the project in your GitHub account.
 
@@ -44,4 +49,16 @@
 
 13. **Repeat**: To meet the Hacktoberfest requirement (usually four valid contributions), repeat this process for other open-source projects throughout October.
 
-Remember to follow ethical and responsible contribution practices. Contributions should be meaningful and aligned with the project's goals. Avoid spammy or low-quality contributions just to meet the Hacktoberfest goal. Always respect the maintainers and their project guidelines.
+# How to make your first Pull Request
+
+Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
+
+## 1. Add your profile picture to the folder
+
+Add a picture picture of your choice in `asset/<YOUR-USERNAME>`. Accepted files are **png** and **jpg**, should be squared and minimum size 544x544 pixels & less than 1mb. Ex.
+
+```shell
+asset/<YOUR-USERNAME>.png
+```
+
+**Remember to follow ethical and responsible contribution practices. Contributions should be meaningful and aligned with the project's goals. Avoid spammy or low-quality contributions just to meet the Hacktoberfest goal. Always respect the maintainers and their project guidelines.**
