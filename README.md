@@ -14,7 +14,7 @@ This project is perfect for your first pull request
 1. **Sign Up**: First, visit the official Hacktoberfest website (https://hacktoberfest.digitalocean.com/) and sign up for the event. You'll need a GitHub account to participate.
 
 
-### After registering to hacktoberfest 2023 you can fork this repository by following some steps :
+ **After registering to hacktoberfest 2023 you can fork this repository by following some steps :**
 
 
 2. **Fork this Repository**: Click the "Fork" button on this project's GitHub page. This creates a copy of the project in your GitHub account.
