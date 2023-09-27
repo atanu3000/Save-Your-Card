@@ -2,21 +2,7 @@
 
 ->  Hacktoberfest is an annual month-long event that encourages open-source contributions and celebrates the open-source community. It typically takes place every October and is sponsored by DigitalOcean in partnership with GitHub. The main goal of Hacktoberfest is to promote collaboration and contribution to open-source projects by motivating developers to make meaningful contributions to GitHub-hosted repositories.
 
-# Here's how Hacktoberfest generally works:
-
-->  Sign Up: Participants first need to sign up for Hacktoberfest on the official website. This is usually a straightforward process, and it's free to participate.
-
-Contribute: To qualify for a Hacktoberfest reward (usually a T-shirt or other swag), participants need to make a certain number of valid contributions to open-source projects during the month of October. In the past, this number was typically four pull requests (PRs), but it can vary from year to year.
-
-Contribution Guidelines: Not all contributions are counted toward the Hacktoberfest goal. Contributions must meet certain criteria, such as being associated with open-source projects and not being spammy or trivial changes. The specific criteria may change from year to year.
-
-Review and Merge: Maintainers of open-source projects review and, if appropriate, merge the contributions made by Hacktoberfest participants. These contributions can include code changes, documentation updates, bug fixes, and more.
-
-Earn Rewards: Once participants have made the required number of valid contributions, they are eligible to receive a Hacktoberfest reward, such as a T-shirt or stickers. The rewards may be shipped to them by the Hacktoberfest organizers.
-
-Contributing to Hacktoberfest involves making meaningful contributions to open-source projects on GitHub during the month of October. Here's a step-by-step guide on how to get started:
-
-## 🚀 Steps To Be Followed
+# 🚀 Steps To Be Followed
 
 1. **Sign Up**: First, visit the official Hacktoberfest website (https://hacktoberfest.digitalocean.com/) and sign up for the event. You'll need a GitHub account to participate.
 
