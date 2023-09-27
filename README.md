@@ -91,3 +91,5 @@ Copy the next template into your file, delete the boilerplate data and fill the 
 ```
 
 **Remember to follow ethical and responsible contribution practices. Contributions should be meaningful and aligned with the project's goals. Avoid spammy or low-quality contributions just to meet the Hacktoberfest goal. Always respect the maintainers and their project guidelines.**
+
+# Happy coding! 🎉
