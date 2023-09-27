@@ -1,6 +1,6 @@
 # What is Hacktoberfest?
 
-->  Hacktoberfest is an annual month-long event that encourages open-source contributions and celebrates the open-source community. It typically takes place every October and is sponsored by DigitalOcean in partnership with GitHub. The main goal of Hacktoberfest is to promote collaboration and contribution to open-source projects by motivating developers to make meaningful contributions to GitHub-hosted repositories.
+ Hacktoberfest is an annual month-long event that encourages open-source contributions and celebrates the open-source community. It typically takes place every October and is sponsored by DigitalOcean in partnership with GitHub. The main goal of Hacktoberfest is to promote collaboration and contribution to open-source projects by motivating developers to make meaningful contributions to GitHub-hosted repositories.
 
 # 🚀 Steps To Be Followed
 
