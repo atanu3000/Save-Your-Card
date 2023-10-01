@@ -10,7 +10,7 @@ const fetchData = () => {
                 card.className = 'mx-auto w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-6';
 
                 card.innerHTML = `
-                    <div class="flex flex-col items-center py-6 hover:bg-gradient-to-r from-indigo-500/50 via-purple-500/50 to-pink-500/50 cursor-pointer">
+                    <div class="flex flex-col items-center py-6 hover:bg-gradient-to-r from-indigo-500/50 via-purple-500/50 to-pink-500/50 cursor-pointer h-full rounded-lg">
                         <img
                             class="w-24 h-24 mb-3 rounded-full shadow-lg"
                             src="${item.image}"
