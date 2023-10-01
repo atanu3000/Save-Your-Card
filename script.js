@@ -23,7 +23,7 @@ const fetchData = () => {
                             ${item.email}
                         </span>
                         <div class="flex mt-4 space-x-3 md:mt-6">
-                            <p class="px-5 text-center text-[#b5b5b5]">${item.description}</p>
+                            <p class="px-5 text-center text-gray-600">${item.description}</p>
                         </div>
                     </div>
                 `;
