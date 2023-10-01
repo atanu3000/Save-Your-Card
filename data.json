@@ -58,5 +58,11 @@
     "email": "sharmasatvik43@gmail.com",
     "image": "./asset/sudo-satvik.jpg",
     "description": "Hello Everyone, I'm Satvik Sharma, well profiecient in UI/UX and Front-End Web Development"
-  }
+  },
+  {
+    "name": "Lalit Chauhan",
+    "email": "lalitchauhanlucky@gmail.com",
+    "image": "./asset/LalitChauhan56.jpg",
+    "description": "Hello everyone! I am a open source enthusiast and a certified cyber security professional."
+}
 ]
