@@ -39,5 +39,10 @@
         "email": "uv1303@gmail.com",
         "image": "./asset/n4_pic_new.png",
         "description": "Hey! I am Yuvraj Singh Sukhmani, Backend Developer & AI/ML Enthusiast from India"
+    },{
+        "name": "Satvik Sharma",
+        "email": "sharmasatvik43@gmail.com",
+        "image": "./asset/sudo-satvik.jpg",
+        "description": "Hello Everyone, I'm Satvik Sharma, well profiecient in UI/UX and Front-End Web Development"
     }
 ]
