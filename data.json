@@ -34,5 +34,10 @@
         "email": "antikapaul3@gmail.com",
         "image": "./asset/antika.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
+    },{
+        "name": "Yuvraj Singh Sukhmani",
+        "email": "uv1303@gmail.com",
+        "image": "./asset/n4_pic_new.jpg",
+        "description": "Hey! I am Yuvraj Singh Sukhmani, Backend Developer & AI/ML Enthusiast from India"
     }
 ]
