@@ -11,6 +11,13 @@
     "image": "https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
   },
+  
+{
+  "name": "Ankit Kumar",
+  "email": "kumarankit11458@gmail.com",
+  "image": "./asset/ankit09.jpg",
+  "description": "Hello everyone! I am a open source enthusiast and a certified Ios Developer professional."
+},
   {
     "name": "Jacky Smith",
     "email": "jacky.smith@gmail.com",
