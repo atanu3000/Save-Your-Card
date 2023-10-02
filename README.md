@@ -1,7 +1,7 @@
 
-# Welcome to Hacktoberfest2023
+# Welcome to Hacktoberfest 2023
 
-Make your first Pull Request and earn a free t-shirts & stickers from GitHub!
+Make your first Pull Request and earn free T-shirts & stickers from GitHub!
 
 ![hacktoberfest2023](https://github.com/atanu3000/Save-Your-Card/assets/102974292/e39a13dd-a94d-4e1e-8f46-4000f160ba32)
 
@@ -14,7 +14,7 @@ This project is perfect for your first pull request
 1. **Sign Up**: First, visit the official Hacktoberfest website (https://hacktoberfest.digitalocean.com/) and sign up for the event. You'll need a GitHub account to participate.
 
 
- **After registering to hacktoberfest 2023 you can fork this repository by following some steps :**
+ **After registering for Hacktoberfest 2023 you can fork this repository by following some steps :**
 
 
 2. **Fork this Repository**: Click the "Fork" button on this project's GitHub page. This creates a copy of the project in your GitHub account.
@@ -68,7 +68,7 @@ Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
 
 ## 1. Add your profile picture to the folder
 
-Add a picture picture of your choice in `asset/<YOUR-USERNAME>`. Accepted files are **png** and **jpg**, should be squared and minimum size 544x544 pixels & less than 1mb. Ex.
+Add a profile picture of your choice in `asset/<YOUR-USERNAME>`. Accepted files are **png** and **jpg**, should be square and have a minimum size of 544x544 pixels & should be less than 1MB. Example:
 
 
 ```shell
