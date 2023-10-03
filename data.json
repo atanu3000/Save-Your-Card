@@ -1,14 +1,14 @@
 [
     {
         "name": "Sutam Paul",
-        "email": "sutampaul990@gmail.com",
+        "email": "sutampaul66@gmail.com",
         "image": "./asset/sutam.png",
         "description": "Hi Folks, I am Sutam Paul, a frontend web developer from India."
     },{
-        "name": "Michael Marsh",
-        "email": "michael.marsh@gmail.com",
-        "image": "https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
+        "name": "Harsh Bhogle",
+        "email": "harsh.bhogle123@gmail.com",
+        "image": "./asset/harsha-bhogle.jpg",
+        "description": "Harsha Bhogle (born 19 July 1961) is an Indian cricket commentator and journalist. Bhogle has cemented his reputation as being a personality in the global cricket broadcasting industry."
     },{
         "name": "Jacky Smith",
         "email": "jacky.smith@gmail.com",
