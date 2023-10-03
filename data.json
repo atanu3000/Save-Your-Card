@@ -35,4 +35,10 @@
         "image": "./asset/antika.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
     }
+    ,{
+        "name": "Abhishek Kumar",
+        "email": "kumarabhishek0776@gmail.com",
+        "image": "./asset/Kumarabhi0776.png",
+        "description": "Undergrad NIT Agartala "
+    }
 ]
