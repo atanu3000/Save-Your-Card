@@ -1,89 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Open Source Project</title>
-        <link rel="icon" href="public/github.png" type="image/x-icon" />
-        <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
-            rel="stylesheet"
-        />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <style>
-            * {
-                color: #fff;
-                font-family: ui-monospace, SFMono-Regular, Menlo, Monaco,
-                    Consolas, "Liberation Mono", "Courier New", monospace;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="min-h-screen mx-auto bg-black">
-            <div class="relative flex-col justify-between p-6 py-8 md:mx-16">
-                <div class="flex justify-between item-center">
-                    <div class="flex flex-col text-center md:text-left">
-                        <div class="w-40 md:w-60 2xl:w-72 text-white">
-                            <a
-                                href="https://hacktoberfest.com/"
-                                target="_blank"
-                            >
-                                <img
-                                    src="public/hacktoberfest.svg"
-                                    alt="hacktoberfest"
-                                    class="w-full"
-                                />
-                            </a>
-                        </div>
-                        <h3
-                            class="text-white mt-2 md:mt-4 tracking-tighter font-bold text-sm md:text-2xl"
-                        >
-                            Open Source Contribution
-                        </h3>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Source Project</title>
+    <link rel="icon" href="public/github.png" type="image/x-icon" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            color: #fff;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+                "Liberation Mono", "Courier New", monospace;
+        }
+
+        form .changeph>input {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+                "Liberation Mono", "Courier New", monospace;
+            font-size: 17px;
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fixed overflow-y-auto h-screen mx-auto bg-gradient-to-t from-[#071952] from-10% to-[#001524] to-90%">
+        <div class="relative flex-col justify-between p-6 py-8 md:mx-16">
+            <div class="flex justify-between item-center">
+                <div class="flex flex-col text-center md:text-left">
+                    <div class="w-40 md:w-60 2xl:w-72 text-white">
+                        <a href="https://hacktoberfest.com/" target="_blank">
+                            <img src="public/hacktoberfest.svg" alt="hacktoberfest" class="w-full" />
+                        </a>
                     </div>
-                    <div
-                        class="w-10 h-10 md:w-14 md:h-14 rounded-[50%] bg-white"
-                    >
-                        <a href="https://github.com/atanu3000/Save-Your-Card" target="_blank"><img src="public/github.png" alt="" /></a>
-                    </div>
+                    <h3 class="text-white mt-2 md:mt-4 tracking-tighter font-bold text-sm md:text-2xl">
+                        Open Source Contribution
+                    </h3>
                 </div>
-                <div class="">
-                    <h1
-                        class="text-4xl text-center md:text-left sm:text-6xl md:text-8xl mt-16 font-semibold leading-10 uppercase"
-                    >
-                        Make your first
-                        <span class="text-yellow-300/75">Open Source</span>
-                        contribution
-                    </h1>
+                <div class="w-10 h-10 md:w-14 md:h-14 rounded-[50%] bg-white">
+                    <a href="https://github.com/atanu3000/Save-Your-Card" target="_blank"><img src="public/github.png"
+                            alt="" /></a>
                 </div>
             </div>
-            <div class="flex flex-col px-6 py-4 md:py-8 md:mx-16 relative">
-                <div
-                    class="flex flex-wrap gap-6 justify-center xl:justify-between items-center my-20"
-                >
-                    <h1 class="text-2xl md:text-4xl uppercase mx-auto sm:mx-0">
-                        find your cards here:
-                    </h1>
-                    <form class="mt-10 mx-auto md:m-0 ">   
-                        <div class="flex relative">
-                            <input type="search" id="searchInput" class="block p-4 sm:pl-8 text-sm text-gray-900 border border-gray-300 rounded-l-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 w-[75vw] sm:w-96" placeholder="Search by name or email" required>
-                            <button type="submit" class="text-white bg-yellow-300/75 hover:bg-yellow-400/75 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-r-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
-                                    <path d="M17 9a1 1 0 0 0-1 1 6.994 6.994 0 0 1-11.89 5H7a1 1 0 0 0 0-2H2.236a1 1 0 0 0-.585.07c-.019.007-.037.011-.055.018-.018.007-.028.006-.04.014-.028.015-.044.042-.069.06A.984.984 0 0 0 1 14v5a1 1 0 1 0 2 0v-2.32A8.977 8.977 0 0 0 18 10a1 1 0 0 0-1-1ZM2 10a6.994 6.994 0 0 1 11.89-5H11a1 1 0 0 0 0 2h4.768a.992.992 0 0 0 .581-.07c.019-.007.037-.011.055-.018.018-.007.027-.006.04-.014.028-.015.044-.042.07-.06A.985.985 0 0 0 17 6V1a1 1 0 1 0-2 0v2.32A8.977 8.977 0 0 0 0 10a1 1 0 1 0 2 0Z"/>
-                                  </svg>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-                <div
-                    id="cards"
-                    class="flex flex-wrap justify-between item-center"
-                >
-                    <!-- cards will be apeared here by script.js -->
-                </div>
+            <div class="">
+                <h1
+                    class="text-4xl text-center md:text-left sm:text-6xl md:text-8xl mt-16 font-semibold leading-10 uppercase">
+                    Make your first
+                    <span class="text-yellow-300/75">Open Source</span>
+                    contribution
+                </h1>
             </div>
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
-        <script src="script.js"></script>
-    </body>
+        <div class="flex flex-col px-6 py-4 md:py-8 md:mx-16 relative">
+            <div class="flex flex-wrap gap-6 justify-center xl:justify-between items-center my-20">
+                <h1 class="text-2xl md:text-4xl uppercase mx-auto sm:mx-0" id="typedText">
+                    find your cards here:
+                </h1>
+                <form class="mt-10 mx-auto md:m-0">
+                    <div class="flex relative changeph">
+                        <input type="search" id="searchInput"
+                            class="block p-4 sm:pl-8 text-sm text-gray-900 border border-gray-300 rounded-l-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 w-[75vw] sm:w-96"
+                            placeholder="Search by name or email" autocomplete="off" required />
+                        <button type="submit"
+                            class="text-white bg-gradient-to-r from-indigo-500/50 via-purple-500/50 to-pink-500/50 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-r-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                                <path
+                                    d="M17 9a1 1 0 0 0-1 1 6.994 6.994 0 0 1-11.89 5H7a1 1 0 0 0 0-2H2.236a1 1 0 0 0-.585.07c-.019.007-.037.011-.055.018-.018.007-.028.006-.04.014-.028.015-.044.042-.069.06A.984.984 0 0 0 1 14v5a1 1 0 1 0 2 0v-2.32A8.977 8.977 0 0 0 18 10a1 1 0 0 0-1-1ZM2 10a6.994 6.994 0 0 1 11.89-5H11a1 1 0 0 0 0 2h4.768a.992.992 0 0 0 .581-.07c.019-.007.037-.011.055-.018.018-.007.027-.006.04-.014.028-.015.044-.042.07-.06A.985.985 0 0 0 17 6V1a1 1 0 1 0-2 0v2.32A8.977 8.977 0 0 0 0 10a1 1 0 1 0 2 0Z" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div id="cards" class="flex flex-wrap justify-between item-center">
+                <!-- cards will be apeared here by script.js -->
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <script src="script.js"></script>
+    <!-- Type it js -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script>
+        new TypeIt("#typedText", {
+            strings: "",
+            speed: 50,
+            waitUntilVisible: true,
+        }).go();
+    </script>
+</body>
+
 </html>

@@ -2,12 +2,12 @@
     {
         "name": "Sutam Paul",
         "email": "sutampaul66@gmail.com",
-        "image": "./asset/sutam.png",
-        "description": "Hi Folks, I am Sutam Paul, a frontend web developer from India."
+        "image": "./asset/sutam_Profile.png",
+        "description": "Hi Folks, I am Sutam Paul, a passoniate programmer from India."
     },{
         "name": "Harsh Bhogle",
         "email": "harsh.bhogle123@gmail.com",
-        "image": "./asset/harsha-bhogle.jpg",
+        "image": "/asset/harsha-bhogle.jpg",
         "description": "Harsha Bhogle (born 19 July 1961) is an Indian cricket commentator and journalist. Bhogle has cemented his reputation as being a personality in the global cricket broadcasting industry."
     },{
         "name": "Jacky Smith",

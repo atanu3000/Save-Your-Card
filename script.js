@@ -23,7 +23,7 @@ const fetchData = () => {
                             ${item.email}
                         </span>
                         <div class="flex mt-4 space-x-3 md:mt-6">
-                            <p class="px-5 text-center text-black">${item.description}</p>
+                            <p class="px-5 text-center text-gray-600">${item.description}</p>
                         </div>
                     </div>
                 `;
@@ -41,10 +41,16 @@ fetchData();
 const fetchUserData = async () => {
     try {
         const response = await fetch('data.json');
+
+        if (!response.ok) {
+            throw new Error(`Failed to fetch data: ${response.statusText}`);
+        }
+
         const data = await response.json();
         return data;
     } catch (error) {
         console.error('Error fetching JSON data:', error);
+        throw error; // Re-throw the error for further handling if needed
     }
 }
 
@@ -72,19 +78,20 @@ const searchUsers = async () => {
                             src="${item.image}"
                             alt="${item.name} image"
                         />
-                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white" id="typedText">
                             ${item.name}
                         </h5>
                         <span class="text-sm text-gray-500 dark:text-gray-400">
                             ${item.email}
                         </span>
                         <div class="flex mt-4 space-x-3 md:mt-6">
-                            <p class="px-5 text-center text-black">${item.description}</p>
+                            <p class="px-5 text-center text-[#b5b5b5]" ">${item.description}</p>
                         </div>
                     </div>
                 `;
         cards.appendChild(searchCard);
     });
 }
+
 
 document.getElementById('searchInput').addEventListener('input', searchUsers);
