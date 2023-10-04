@@ -31,6 +31,12 @@
     "description": "Hello Everyone, I'm ZenK, web developer :)"
   },
   {
+    "name": "Sudeshna Das",
+    "email": "ankitkumar091215@gmail.com",
+    "image": "./asset/ankit08.jpg",
+    "description": "Hello everyone! I am a open source enthusiast and a certified Front End  Web Developer professional."
+  },
+  {
     "name": "Elon Mask",
     "email": "elon.mask@gmail.com",
     "image": "https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg",
@@ -48,6 +54,8 @@
     "image": "./asset/atanu.jpg",
     "description": "Hello there, I'm Atanu Paul, a ethusiastic fullstack web developer from India."
   },
+  
+
   {
     "name": "Antika Paul",
     "email": "antikapaul3@gmail.com",
