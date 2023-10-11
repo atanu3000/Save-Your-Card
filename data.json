@@ -1,75 +1,74 @@
 [
-  {
-    "name": "Sutam Paul",
-    "email": "sutampaul66@gmail.com",
-    "image": "./asset/sutam_Profile.png",
-    "description": "Hi Folks, I am Sutam Paul, a passoniate programmer from India."
-  },
-  {
-    "name": "Harsh Bhogle",
-    "email": "harshbhgle123@gmail.com",
-    "image": "./asset/harsha-bhogle.jpg",
-    "description": "Harsha Bhogle is an Indian cricket commentator and journalist. Bhogle has cemented his reputation as being a personality in the global cricket broadcasting industry."
-  },
-  
-{
-  "name": "Ankit Kumar",
-  "email": "kumarankit11458@gmail.com",
-  "image": "./asset/ankit09.jpg",
-  "description": "Hello everyone! I am a open source enthusiast and a certified Ios Developer professional."
-},
-  {
-    "name": "Jacky Smith",
-    "email": "jacky.smith@gmail.com",
-    "image": "https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
-  },
-  {
-    "name": "Zen",
-    "email": "zenK23@gmail.com",
-    "image": "./asset/zen.jpg",
-    "description": "Hello Everyone, I'm ZenK, web developer :)"
-  },
-  {
-    "name": "Elon Mask",
-    "email": "elon.mask@gmail.com",
-    "image": "https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
-  },
-  {
-    "name": "Mark Zuckerberg",
-    "email": "mark.zuckerberg@gmail.com",
-    "image": "https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
-  },
-  {
-    "name": "Atanu Paul",
-    "email": "atanupaul2411@gmail.com",
-    "image": "./asset/atanu.jpg",
-    "description": "Hello there, I'm Atanu Paul, a ethusiastic fullstack web developer from India."
-  },
-  {
-    "name": "Antika Paul",
-    "email": "antikapaul3@gmail.com",
-    "image": "./asset/antika.jpg",
-    "description": "Hello, I'm Antika Paul. A student of ANMS from India. I'm contributing first time in this program."
-  },
-  {
-    "name": "Yuvraj Singh Sukhmani",
-    "email": "uv1303@gmail.com",
-    "image": "./asset/n4_pic_new.png",
-    "description": "Hey! I am Yuvraj Singh Sukhmani, Backend Developer & AI/ML Enthusiast from India"
-  },
-  {
-    "name": "Satvik Sharma",
-    "email": "sharmasatvik43@gmail.com",
-    "image": "./asset/sudo-satvik.jpg",
-    "description": "Hello Everyone, I'm Satvik Sharma, well profiecient in UI/UX and Front-End Web Development"
-  },
-  {
-    "name": "Lalit Chauhan",
-    "email": "lalitchauhanlucky@gmail.com",
-    "image": "./asset/LalitChauhan56.jpg",
-    "description": "Hello everyone! I am a open source enthusiast and a certified cyber security professional."
-}
+    {
+        "name": "Sutam Paul",
+        "email": "sutampaul66@gmail.com",
+        "image": "./asset/sutam_Profile.png",
+        "description": "Hi Folks, I am Sutam Paul, a passoniate programmer from India."
+    },
+    {
+        "name": "Harsh Bhogle",
+        "email": "harshbhgle123@gmail.com",
+        "image": "./asset/harsha-bhogle.jpg",
+        "description": "Harsha Bhogle is an Indian cricket commentator and journalist. Bhogle has cemented his reputation as being a personality in the global cricket broadcasting industry."
+    },
+    {
+        "name": "Ankit Kumar",
+        "email": "kumarankit11458@gmail.com",
+        "image": "./asset/ankit09.jpg",
+        "description": "Hello everyone! I am a open source enthusiast and a certified Ios Developer professional."
+    },
+    {
+        "name": "Jacky Smith",
+        "email": "jacky.smith@gmail.com",
+        "image": "https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
+    },
+    {
+        "name": "Zen",
+        "email": "zenK23@gmail.com",
+        "image": "./asset/zen.jpg",
+        "description": "Hello Everyone, I'm ZenK, web developer :)"
+    },
+    {
+        "name": "Elon Mask",
+        "email": "elon.mask@gmail.com",
+        "image": "https://fitsmallbusiness.com/wp-content/uploads/2019/10/elon_musk_headshot.jpg",
+        "description": "I'm someone who recognizes the necessity of embracing change, especially when the alternative is disaster."
+    },
+    {
+        "name": "Mark Zuckerberg",
+        "email": "mark.zuckerberg@gmail.com",
+        "image": "https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, facilis."
+    },
+    {
+        "name": "Atanu Paul",
+        "email": "atanupaul2411@gmail.com",
+        "image": "./asset/atanu.jpg",
+        "description": "Hello there, I'm Atanu Paul, a ethusiastic fullstack web developer from India."
+    },
+    {
+        "name": "Antika Paul",
+        "email": "antikapaul3@gmail.com",
+        "image": "./asset/antika.jpg",
+        "description": "Hello, I'm Antika Paul. A student of ANMS from India. I'm contributing first time in this program."
+    },
+    {
+        "name": "Yuvraj Singh Sukhmani",
+        "email": "uv1303@gmail.com",
+        "image": "./asset/n4_pic_new.png",
+        "description": "Hey! I am Yuvraj Singh Sukhmani, Backend Developer & AI/ML Enthusiast from India"
+    },
+    {
+        "name": "Satvik Sharma",
+        "email": "sharmasatvik43@gmail.com",
+        "image": "./asset/sudo-satvik.jpg",
+        "description": "Hello Everyone, I'm Satvik Sharma, well profiecient in UI/UX and Front-End Web Development"
+    },
+    {
+        "name": "Lalit Chauhan",
+        "email": "lalitchauhanlucky@gmail.com",
+        "image": "./asset/LalitChauhan56.jpg",
+        "description": "Hello everyone! I am a open source enthusiast and a certified cyber security professional."
+    }
 ]
