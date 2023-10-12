@@ -19,11 +19,11 @@ const fetchData = () => {
                         <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
                             ${item.name}
                         </h5>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">
+                        <span class="text-sm text-white-500 dark:text-white">
                             ${item.email}
                         </span>
                         <div class="flex mt-4 space-x-3 md:mt-6">
-                            <p class="px-5 text-center text-gray-600">${item.description}</p>
+                            <p class="px-5 text-center text-gray-600  dark:text-white">${item.description}</p>
                         </div>
                     </div>
                 `;

@@ -8,9 +8,10 @@
     <link rel="icon" href="public/github.png" type="image/x-icon" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
-            color: #fff;
+            color: #ffffff;
             font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
                 "Liberation Mono", "Courier New", monospace;
         }
@@ -20,7 +21,106 @@
                 "Liberation Mono", "Courier New", monospace;
             font-size: 17px;
             text-transform: capitalize;
+            color: aliceblue;
         }
+
+
+
+.social-text {
+  padding: 0.7rem 0;
+  font-size: 1rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+/* github */
+.social-icon {
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: #333;
+  border-radius: 50%;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color:white;
+background-color:black;
+}
+/* facebook */
+.face{
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: #333;
+  border-radius: 50%;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.face:hover {
+  color:white;
+background-color:rgb(30, 83, 206);
+}
+/* instagram */
+.insta {
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: #333;
+  border-radius: 50%;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+.insta:hover {
+  color:white;
+  background: linear-gradient(to left, #ff0066 0%, #ff9933 100%);
+}
+
+
+/* linedin */
+.linkedin {
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: #333;
+  border-radius: 50%;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.linkedin:hover {
+  color:white;
+background-color:rgb(37, 104, 219);
+}
+
+
+
+
+
     </style>
 </head>
 
@@ -57,7 +157,7 @@
                 <h1 class="text-2xl md:text-4xl uppercase mx-auto sm:mx-0" id="typedText">
                     find your cards here:
                 </h1>
-                <form class="mt-10 mx-auto md:m-0">
+                <form class="mt-10 mx-auto md:m-0" >
                     <div class="flex relative changeph">
                         <input type="search" id="searchInput"
                             class="block p-4 sm:pl-8 text-sm text-gray-900 border border-gray-300 rounded-l-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 w-[75vw] sm:w-96"
@@ -71,12 +171,31 @@
                             </svg>
                         </button>
                     </div>
+          
                 </form>
+                
             </div>
-            <div id="cards" class="flex flex-wrap justify-between item-center">
+            <div id="cards" class="flex flex-wrap justify-between item-center" style="color: whitesmoke !important;">
                 <!-- cards will be apeared here by script.js -->
             </div>
+            <div class="social-media">
+              <a href="https://github.com/ankit071105/Save-Your-Card" class="social-icon">
+              <i class="fa-brands fa-github fa-beat"></i>
+              </a>
+              
+              <a href="https://www.facebook.com/hacktoberfests" class="face">
+              <i class="fa-brands fa-facebook"></i>
+              </a>
+              
+              <a href="https://www.instagram.com/hacktoberfest/" class="insta">
+              <i class="fa-brands fa-instagram fa-beat"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/hacktoberfest/" class="linkedin">
+              <i class="fa-brands fa-linkedin fa-beat"></i>
+              </a>
+              </div>
         </div>
+        
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
     <script src="script.js"></script>
